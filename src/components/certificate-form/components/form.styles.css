@@ -1,0 +1,36 @@
+.certificate-form {
+    width: 90%;
+    max-width: 320px;
+    background-color: #fff;
+    border-radius: .5rem;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,.2),
+                0px 3px 3px 0px rgba(0,0,0,.14),
+                0px 4px 6px 0px rgba(0,0,0,.12);
+    padding: 1rem;
+}
+
+.certificate-form .logo {
+    width: 100%;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.certificate-form .logo img {
+    width: 160px;
+}
+
+.certificate-form input, .certificate-form button {
+    width: 100%;
+    font-family: 'Rubik', Arial, Helvetica, sans-serif;
+}
+
+.certificate-form input {
+    margin-bottom: 1rem;
+    padding: .5rem;
+    box-sizing: border-box;
+}
+
+.certificate-form button {
+    text-transform: uppercase;
+    padding: .5rem 0;
+}
